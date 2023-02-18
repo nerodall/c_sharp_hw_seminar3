@@ -39,4 +39,4 @@ int y2 = InputInt ("Введите y2");
 int z2 = InputInt("Введите z2");
 
 double distance = Distance(x1,y1,z1,x2,y2,z2);
-System.Console.WriteLine($"Расстояние между точками А ({x1},{y1},{z1}) и В ({x2},{y1},{z1}) {distance:F2}");
+System.Console.WriteLine($"Расстояние между точками А({x1},{y1},{z1}) и В({x2},{y1},{z1}) равно {distance:F2}");
